@@ -1,3 +1,5 @@
+PATH=$PATH:/usr/local/sbin
+
 #Mac Extentions
 
 #API ALIASES
@@ -12,6 +14,3 @@ alias dar='python run.py';
 alias dapidev='rabbitmq-server; dcw && dfw && dar';
 #MAC ALIASES
 alias virtualenv3='~/Library/Python/3.5/bin/virtualenv';
-
-
-PATH=$PATH:/usr/local/sbin
