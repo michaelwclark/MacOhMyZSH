@@ -1,4 +1,4 @@
-#Mac Extentions 
+#Mac Extentions
 
 #API ALIASES
 alias dapi='~/Projects/denim-api';
