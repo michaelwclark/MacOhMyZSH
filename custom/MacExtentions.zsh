@@ -21,5 +21,5 @@ alias rel_app_staging='sudo cf target -s staging && yarn run build-staging && su
 alias rel_app_prod='sudo cf target -s production && yarn run build && sudo cf push -f manifest.yml'
 
 alias gffs='git flow feature start'
-alias gfff='git flow feature finish `git branch | sed -En "s/\* feature\/(.*)/\1/p"`'
+alias gfff='git flow feature finish `git branch | sed -En "s/\* feature\/(.*)/\1/p"`; ggp'
 
